@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button_clicker</title>
+    <link rel="stylesheet" href="./Button_Clicker.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="header">
+            <h1><a class="Dojonary">Dojonary</a><input type="input" name="Search" value="Search" class="searchInput"><button type="button" class="log"
+                 onclick="logIn(this)">Login</button></h1>
+        </div>
+        <div class="bodyContainer">
+            <div class="left_container">
+                <div class="left_top">
+                    <div class="left_top_ninja">
+                        <h3>ninja</h3>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button type="button" class="likes_button" onclick="notify()">13 Likes</button>
+                    </div>
+                    <div>
+                        <p class="ninjaParagragh">A practitoner skilled in the <a href="">Japanese</a> of <a href="">jinjutsu</a></p>
+                    </div>
+
+                </div>
+                <div class="left_bottom">
+                    <div class="left_bottom_ninja">
+                        <h3>ninja</h3>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button type="button" class="likes_button" onclick="notify(this)">13 Likes</button>
+                    </div>
+                    <div >
+                        <p class="ninjaParagragh">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right_container">
+                <h4>Dojonary is defined by you</h4>
+                <button type="button" class="right_container_button" onclick="hide(this)">Add definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Button_Clicker.js"></script>
+</body>
+
+</html>
