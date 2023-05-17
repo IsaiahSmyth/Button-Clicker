@@ -45,17 +45,20 @@ body {
     justify-content: center;
     width: 100%;
 }
+
 .main_container {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
 .bodyContainer {
     height: 500px;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
+
 h3 {
     font-size: 3rem;
 }
@@ -65,6 +68,7 @@ h3 {
     text-decoration: none;
     color: rgb(76, 113, 217);
 }
+
 .ninjaParagragh {
     margin-top: 25%;
 }
@@ -90,10 +94,10 @@ h3 {
     display: flex;
     
 }
+
 .left_top_ninja {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     justify-content: space-evenly;
     margin: 20px;
 }
@@ -110,7 +114,6 @@ h3 {
 .left_bottom_ninja {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     justify-content: space-evenly;
     margin: 20px;
 }
@@ -127,9 +130,11 @@ h3 {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 h4 {
     margin-left: 15px
 }
+
 .right_container_button {
     background-color: green;
     width: 80%;
